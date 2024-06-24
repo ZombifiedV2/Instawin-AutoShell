@@ -1,0 +1,5 @@
+for i,v in workspace:GetDescendants() do 
+    if v:IsA('TouchTransmitter') then 
+        firetouchinterest(game.Players.LocalPlayer.Character.PrimaryPart, v.Parent, 1)
+    end 
+end
